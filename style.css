@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'hanken grotesk';
+}
+.box {
+    display: flex;
+    width: 736px;
+    justify-content: center;
+    border-radius: 32px;
+    background-color: white;
+}
+
+.purple {
+    color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 32px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+}
+
+.white {
+    width: 50%;
+    padding: 20px;
+}
+.purple h3 {
+    text-align: center;
+    color:rgba(202, 201, 255, 1);
+ }
+
+ .circle-purple {
+    padding: 50px;
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+ }
+
+ .big {
+    color: white; 
+    font-size: 60px;
+    font-weight: 700;
+    
+ }
+.small {
+    color: rgba(202, 201, 255, 1);
+    font-weight: 700;
+
+}
+ .purple h4 {
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 41.7px;
+
+
+ }
+
+ .scores {
+    display: flex;
+    flex-direction: column;
+
+ }
+  .reaction {
+    display: flex;
+    justify-content: space-between;
+    background-color:hsla(0, 100%, 67%, 0.1);
+    color: hsla(0, 100%, 67%, 1);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight:500;
+  }
+.gray {
+    color: hsla(224, 30%, 27%, 0.6);
+}
+.black {
+    color: hsla(223, 30%, 27%, 1);
+    font-weight: bold;
+}
+.memory {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight:500;
+
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight:500;
+
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight:500;
+
+}
+
+.white h5 {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(48, 59, 89, 1);
+}
+ .white img {
+    margin-right: 5px;
+ } 
+
+ button {
+    margin-top: 30px;
+    padding: 17px 30px;
+    color: white;
+    background-color: rgba(105, 67, 255, 1);
+    border: none;
+    width: 100%;
+    height: 56px;
+    border-radius: 128px;
+    font-family: 'hanken grotesk';
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+ .purple p {
+    color: rgba(202, 201, 255, 1);
+    font-size: 17px;
+    font-weight: 500;
+    text-align-last: center;
+    line-height: 23.45px;
+    letter-spacing: 1px;
+ }
